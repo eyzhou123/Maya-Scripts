@@ -5,6 +5,8 @@ Python scripts to aid with modeling and rigging in Maya
 
 This script has an interface and allows the user to apply random deterioration to a 3D model. The current types of deterioration are categorized as noise patches, dents, and breaking/cracks. The user is able to alter parameters for these categories and even save them as profiles to easily reuse on similar models. These profiles are saved to a text file and are read in on every use of the tool.
 
+![alt text](https://github.com/eyzhou123/Maya-Scripts/example_images/deteriorate1.png "Auto Deterioration Result 1")
+
 #### 2) Basic Zero-Out Script
 
 This was one of my first scripts written in Maya. It simply builds a small interface that lists the objects in the scene, with buttons for zeroing out translate, rotate and scale values if they are not already zeroed out.
