@@ -10,15 +10,17 @@ This script has an interface and allows the user to apply random deterioration t
 #### 2) Basic Zero-Out Script
 
 This was one of my first scripts written in Maya. It simply builds a small interface that lists the objects in the scene, with buttons for zeroing out translate, rotate and scale values if they are not already zeroed out.
-
+<img src="https://github.com/eyzhou123/Maya-Scripts/blob/master/example_images/inspect_scene.png" alt="Drawing" width="600" height="500"/>
 #### 3) Circular Tiling Script
 
 This was a small script that was used in my game "Silk and Stone". It was used for arranging objects in a circular pattern, which made modeling pagoda tiles, circular gates etc. very efficient. 
+<img src="https://github.com/eyzhou123/Maya-Scripts/blob/master/example_images/tiling_example.png" alt="Drawing" width="800" height="450"/>
 
 #### 4) Landscape Generator Script
 
 This script has an interface and allows the user to first randomly generate terrain from a default plane. Then, the user may select models to use as a database, which the script will pull from when randomly populating the terrain with the models, taking into account the elevation differences. 
-
+<img src="https://github.com/eyzhou123/Maya-Scripts/blob/master/example_images/landscape_generator1.png" alt="Drawing" width="800" height="450"/>
+<img src="https://github.com/eyzhou123/Maya-Scripts/blob/master/example_images/landscape_generator2.png" alt="Drawing" width="800" height="450"/>
 #### 5) Maya API Script Test
 
 A small exercise with the Maya API to loop through vertices much quicker than with a for loop in Python.
@@ -26,6 +28,8 @@ A small exercise with the Maya API to loop through vertices much quicker than wi
 #### 6) Skin Weight Averaging Script
 
 This script was made to fix skinning issues for models that had disconnected pieces (for example, game models that had customizable features). Instead of mirroring skin weights, which would fail if some weights were 0, it averages the weights for smoother results.
+<img src="https://github.com/eyzhou123/Maya-Scripts/blob/master/example_images/skinning_before.png" alt="Drawing" width="800" height="450"/>
+<img src="https://github.com/eyzhou123/Maya-Scripts/blob/master/example_images/skinning_after.png" alt="Drawing" width="800" height="450"/>
 
 #### 7) Zero Out Control Script
 
